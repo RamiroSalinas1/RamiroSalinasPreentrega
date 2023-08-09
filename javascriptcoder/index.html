@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculadora de Propinas</title>
+</head>
+<body>
+    <h1>Calculadora de Propinas</h1>
+    <label for="total">Monto Total de la Cuenta:</label>
+    <input type="number" id="total">
+    <br>
+    <label for="percentage">Porcentaje de Propina:</label>
+    <select id="percentage">
+        <option value="5">5%</option>
+        <option value="10">10%</option>
+        <option value="15">15%</option>
+        <option value="20">20%</option>
+        <option value="25">25%</option>
+    </select>
+    <br>
+    <button onclick="calculateTip()">Calcular Propina</button>
+    <p id="tipAmount"></p>
+    <p id="totalAmount"></p>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
+
